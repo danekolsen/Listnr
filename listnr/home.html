@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Listn.r - Home</title>
+  <link rel="stylesheet" href="home.css">
+  <link rel="icon" type="image/ico" href="images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+      $(document).ready(function(){
+        $("#edit_bkgd").hide();
+        console.log("working");
+
+        $("#edit_show").click(function(){
+            $("#edit_bkgd").show();
+            console.log("working");
+        });
+
+        $(".edit_hide").click(function(){
+            $("#edit_bkgd").hide();
+            console.log("working");
+        });
+});
+  </script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <div class="logo">
+        <a href="home.html"><img src="images/turntable_icon.png"></a>
+        <h1>Listn.r</h1>
+      </div>
+      <div class="login">
+        <p>Hello, User!</p>
+        <button id="edit_show">Edit Your Info</button>
+        <a href="landing.html">Log Out</a>
+      </div>
+    </div>
+    <hr>
+    <div class="body">
+      <div class="wall">
+        <div class="new_post">
+          <h2>What are you listening to?</h2>
+          <textarea placeholder="Type here..."></textarea>
+          <input type="submit" value="Share!">
+        </div>
+        <div class="post">
+          <a href="friend_wall.html"><img src="images/kermit.jpg"></a>
+          <div class="content">
+            <h6>Posted by Kermit 30 min ago</h6>
+            <p>So glad to finally see something new from Snow Patrol!!!</p>
+          </div>
+          <div class="comment">
+            <a href="friend_wall.html"><img src="images/animal.jpg"></a>
+            <div class="content">
+              <h6>Posted by Animal 29 min ago</h6>
+              <p>SAME</p>
+            </div>
+          </div>
+          <div class="comment">
+            <a href="friend_wall.html"><img src="images/pepe.jpg"></a>
+            <div class="content">
+              <h6>Posted by Pepe 25 min ago</h6>
+              <p>Totally agree!</p>
+            </div>
+          </div>
+          <div class="comment">
+            <textarea placeholder="Type here..."></textarea>
+            <input type="submit" value="Reply">
+          </div>
+        </div>
+        <div class="post">
+          <a href="friend_wall.html"><img src="images/animal.jpg"></a>
+          <div class="content">
+            <h6>Posted by Animal 5 hrs ago</h6>
+            <p>Never thought we'd hear from Hoobastank again!</p>
+          </div>
+          <div class="comment">
+            <a href="friend_wall.html"><img src="images/pepe.jpg"></a>
+            <div class="content">
+              <h6>Posted by Pepe 2 hrs ago</h6>
+              <p>I thought we hit peak Hoobastank in the early 2000's?</p>
+            </div>
+          </div>
+          <div class="comment">
+            <a href="friend_wall.html"><img src="images/beaker.jpg"></a>
+            <div class="content">
+              <h6>Posted by Beaker 13 min ago</h6>
+              <p>Miiiii!</p>
+            </div>
+          </div>
+          <div class="comment">
+            <a href="friend_wall.html"><img src="images/gonzo.jpg"></a>
+            <div class="content">
+              <h6>Posted by Gonzo just now</h6>
+              <p>Yes!</p>
+            </div>
+          </div>
+          <div class="comment">
+            <textarea placeholder="Type here..."></textarea>
+            <input type="submit" value="Reply">
+          </div>
+        </div>
+        <div class="post">
+          <a href="friend_wall.html"><img src="images/beaker.jpg"></a>
+          <div class="content">
+            <h6>Posted by Beaker 1 day ago</h6>
+            <p>MI MI MI MI MI MI MI MI MIIIIIIIIIIIIII!</p>
+          </div>
+          <div class="comment">
+            <a href="friend_wall.html"><img src="images/kermit.jpg"></a>
+            <div class="content">
+              <h6>Posted by Kermit 20 hrs ago</h6>
+              <p>What?</p>
+            </div>
+          </div>
+          <div class="comment">
+            <textarea placeholder="Type here..."></textarea>
+            <input type="submit" value="Reply">
+          </div>
+        </div>
+      </div>
+      <div class="navbar">
+        <div class="album_display">
+          <h1>Your Favorite Albums</h1>
+          <div class="album">
+            <a href="album.html"><img src="images/bodak.jpg"></a>
+            <h2>Bodak Yellow</h2>
+            <h2>Cardi B</h2>
+          </div>
+          <div class="album">
+            <a href="album.html"><img src="images/snow_patrol.jpg"></a>
+            <h2>Wildness</h2>
+            <h2>Snow Patrol</h2>
+          </div>
+          <div class="album">
+            <a href="album.html"><img src="images/chvrches.jpg"></a>
+            <h2>Love is Dead</h2>
+            <h2>CHVRCHES</h2>
+          </div>
+          <div class="album">
+            <a href="album.html"><img src="images/arms.jpg"></a>
+            <h2>No Place is Home</h2>
+            <h2>Welshley Arms</h2>
+          </div>
+          <div class="album">
+            <a href="album.html"><img src="images/hoobastank.jpg"></a>
+            <h2>Push Pull</h2>
+            <h2>Hoobastank</h2>
+          </div>
+        </div>
+        <div class="album_display">
+          <h1>Your Friends</h1>
+          <div class="friend">
+            <a href="friend_wall.html"><img src="images/animal.jpg"></a>
+            <h2>Animal</h2>
+          </div>
+          <div class="friend">
+            <a href="friend_wall.html"><img src="images/kermit.jpg"></a>
+            <h2>Kermit</h2>
+          </div>
+          <div class="friend">
+            <a href="friend_wall.html"><img src="images/gonzo.jpg"></a>
+            <h2>Gonzo</h2>
+          </div>
+          <div class="friend">
+            <a href="friend_wall.html"><img src="images/pepe.jpg"></a>
+            <h2>Pepe</h2>
+          </div>
+          <div class="friend">
+            <a href="friend_wall.html"><img src="images/beaker.jpg"></a>
+            <h2>Beaker</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ <div id="edit_bkgd">
+  <div id="edit">
+      <h1>Edit your info</h1>
+      <label for="first_name">First Name:</label>
+      <input type="text" id="first_name">
+      <label for="last_name">Last Name:</label>
+      <input type="text" id="last_name">
+      <label for="email">Email Address:</label>
+      <input type="text" id="email">
+      <label for="password">Password:</label>
+      <input type="text" id="password">
+      <label for="password_confirm">Confirm Password:</label>
+      <input type="text" id="confirm_password">
+      <label for="bio">Bio:</label>
+      <textarea id="bio"></textarea>
+      <button class="edit_hide">Save</button>
+      <button class="edit_hide">Cancel</button>
+  </div>
+</div> 
+</body>
+
+</html>

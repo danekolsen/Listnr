@@ -1,0 +1,537 @@
+/*CSS RESET*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  /* outline:1px solid black; */
+  color: #FAFAFA;
+  font-family: sans-serif;
+}
+
+@media only screen and (max-width:1023px){
+ 
+  /*WRAPPER*/
+  
+  .wrapper {
+    width: 100%;
+    margin: 0px auto;
+    background-color: #212121;
+    box-shadow: 0px 0px 3px 3px #000;
+    padding-bottom: 50px;
+  }
+  
+  /*HEADER*/
+  
+  .header img {
+    width: 35%;
+    display: inline-block;
+  }
+  
+  .header h1 {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 7vw;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 2px 2px 3px #000;
+    color: #0277BD;
+  }
+  
+  .logo {
+    width: 48%;
+    display: inline-block;
+  }
+  
+  .login {
+    width: 20%;
+    display: inline-block;
+    margin-left: 20vw;
+    vertical-align: top;
+  }
+  
+  .login p {
+    display: block;
+    font-size: 1.5vw;
+    margin: 10px;
+    text-shadow: 2px 2px 3px #000;
+    font-family: 'Pacifico', cursive;
+  }
+  
+  .login input {
+    display: block;
+    font-size: 15px;
+    padding: 7px;
+    margin: 10px;
+    color: black;
+    border-radius: 3px;
+    border: none;
+  }
+  
+  .login a {
+    display: block;
+    padding: 5px;
+    background-color: #0277BD;
+    border-radius: 5px;
+    text-align: center;
+    width: 60%;
+    margin: 10px;
+    text-decoration: none;
+    text-shadow: 2px 2px 3px #000;
+    border: 1px solid black;
+    font-size: 1vw;
+  }
+  
+  /*BODY*/
+  
+  .body {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .body img {
+    width: 30%;
+    display: inline-block;
+    margin: 30px;
+    border: 2px solid black;
+  }
+  
+  .profile_pic {
+    border-radius: 50%;
+  }
+  
+  .album_content {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+    margin: 12px;
+  }
+  
+  .body h1, h2, p {
+    margin: 10px;
+    font-weight: 200;
+  }
+  
+  .body p {
+    font-size: 19px;
+  }
+  
+  .body a {
+    margin: 10px;
+    font-size: 19px;
+  }
+  
+  .album_comments {
+    border: 3px solid #FAFAFA;
+    border-radius: 3px;
+    width: 90%;
+    margin: 10px auto;
+  }
+  
+  .comment {
+    border: 2px solid #FAFAFA;
+    border-radius: 3px;
+    margin: 10px auto;
+    width: 90%;
+    text-align: left
+  }
+  
+  .comment img {
+    width: 7%;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid black;
+    margin: 5px;
+  }
+  
+  .comment .content {
+    display: inline-block;
+    width: 80%;
+    vertical-align: top;
+    margin: 5px;
+  }
+  
+  .friend_content {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+    margin: 12px;
+    text-align: left;
+  }
+  
+  .friend_content iframe {
+    margin: 10px;
+    display: block;
+    width: 90%;
+    height: 55vh;
+    margin: 20px auto;
+  }
+  
+  .friend_comments {
+    border: 3px solid #FAFAFA;
+    border-radius: 3px;
+    width: 90%;
+    margin: 10px auto;
+  }
+  
+  .friend_comments h1 {
+    text-shadow: 2px 2px 3px #000;
+    font-family: 'Pacifico', cursive;
+    font-size: 3vw;
+  }
+  
+  .navbar {
+    width: 95%;
+    display: block;
+    margin: 10px auto;
+  }
+  
+  .friend {
+    display: inline-block;
+    width: 17%;
+    padding: 3px;
+    vertical-align: top;
+    margin: 10px auto;
+  }
+  
+  .friend img {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 2px solid black;
+  }
+  
+  .friend h2 {
+    font-size: 12px;
+    font-weight: 300;
+    text-shadow: 2px 2px 3px #000;
+    margin: 5px;
+  }
+  
+  .album {
+    display: inline-block;
+    width: 17%;
+    padding: 3px;
+    vertical-align: top;
+    margin: 10px auto;
+  }
+  
+  .album img {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .album h2 {
+    font-size: 1vw;
+    font-weight: 300;
+    text-shadow: 2px 2px 3px #000;
+    margin: 5px;
+  }
+  
+  .album_display {
+    text-align: center;
+  }
+  
+  .album_display h1 {
+    margin: 20px;
+    font-family: 'Pacifico', cursive;
+    font-size: 3vw;
+    text-shadow: 2px 2px 3px #000;
+  }
+  
+  .album_display h2 {
+    font-size: 1vw;
+  }
+  
+  .comment textarea {
+    width: 96%;
+    height: 75px;
+    resize: none;
+    white-space: nowrap;
+    margin: 7px;
+    border-radius: 3px;
+    color: black;
+    padding: 5px;
+    font-size: 20px;
+  }
+  
+  .comment input {
+    color: #FAFAFA;
+    margin-left: 7px;
+    margin-bottom: 7px;
+    background-color: #0277BD;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 7px 40px;
+    font-size: 1vw;
+    text-shadow: 2px 2px 3px #000;
+    font-size: 20px;
+  }
+  }
+
+@media only screen and (min-width:1024px){
+/*BODY*/
+
+body {
+  /* background-color: #212121; */
+  background-image: url(images/stripes.png);
+}
+
+/*WRAPPER*/
+
+.wrapper {
+  width: 80%;
+  margin: 0px auto;
+  background-color: #212121;
+  box-shadow: 0px 0px 3px 3px #000;
+  padding-bottom: 7vh;
+}
+
+/*HEADER*/
+
+.header img {
+  width: 35%;
+  display: inline-block;
+}
+
+.header h1 {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 7vw;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px 3px #000;
+  color: #0277BD;
+}
+
+.logo {
+  width: 48%;
+  display: inline-block;
+}
+
+.login {
+    width: 20%;
+    display: inline-block;
+    margin-left: 20vw;
+    vertical-align: top;
+  }
+
+.login p {
+  display: block;
+  font-size: 1.5vw;
+  margin: .5vw;
+  text-shadow: 2px 2px 3px #000;
+  font-family: 'Pacifico', cursive;
+}
+
+.login input {
+  display: block;
+  font-size: 1vw;
+  padding: .5vw;
+  margin: .5vw;
+  color: black;
+  border-radius: 3px;
+  border: none;
+}
+
+.login a {
+  display: block;
+  padding: .5vw;
+  background-color: #0277BD;
+  border-radius: 5px;
+  text-align: center;
+  width: 60%;
+  margin: .5vw;
+  text-decoration: none;
+  text-shadow: 2px 2px 3px #000;
+  border: 1px solid black;
+  font-size: 1vw;
+}
+
+/*BODY*/
+
+.body {
+  width: 100%;
+  text-align: center;
+}
+
+.body img {
+  width: 30%;
+  display: inline-block;
+  border: 2px solid black;
+}
+
+.profile_pic {
+  border-radius: 50%;
+  margin: 2vw;
+}
+
+.album_content {
+  display: inline-block;
+  width: 60%;
+  vertical-align: top;
+  margin: .5vw;
+}
+
+.body h1, h2, p {
+  margin: .5vw;
+  font-weight: 200;
+  font-size:2.5vw;
+}
+
+.body p {
+  font-size: 1vw;
+}
+
+.body a {
+  margin: .5vw;
+  font-size: 1vw;
+}
+
+.album_comments {
+  border: 3px solid #FAFAFA;
+  border-radius: 3px;
+  width: 90%;
+  margin: .5vw auto;
+}
+
+.comment {
+  border: 2px solid #FAFAFA;
+  border-radius: 3px;
+  margin: .5vw auto;
+  width: 90%;
+  text-align: left
+}
+
+.comment img {
+  width: 7%;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid black;
+  margin: .5vw;
+}
+
+.comment .content {
+  display: inline-block;
+  width: 80%;
+  vertical-align: top;
+  margin: .5vw;
+}
+
+.friend_content {
+  display: inline-block;
+  width: 60%;
+  vertical-align: top;
+  margin: .5vw;
+  text-align: left;
+}
+
+.friend_content iframe {
+  margin: .5vw;
+  display: block;
+  width: 40vw;
+  height: 50vh;
+  margin: 1vw auto;
+}
+
+.friend_comments {
+  border: 3px solid #FAFAFA;
+  border-radius: 3px;
+  width: 90%;
+  margin: .5vw auto;
+}
+
+.friend_comments h1 {
+  text-shadow: 2px 2px 3px #000;
+  font-family: 'Pacifico', cursive;
+  font-size: 3vw;
+}
+
+.navbar {
+  width: 95%;
+  display: block;
+  margin: .5vw auto;
+}
+
+.friend {
+  display: inline-block;
+  width: 17%;
+  padding: .5vw;
+  vertical-align: top;
+  margin: .5vw auto;
+}
+
+.friend img {
+  width: 85%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.friend h2 {
+  font-size: 1vw;
+  font-weight: 300;
+  text-shadow: 2px 2px 3px #000;
+  margin: .5vw;
+}
+
+.album {
+  display: inline-block;
+  width: 17%;
+  padding: .5vw;
+  vertical-align: top;
+  margin: .5vw auto;
+}
+
+.album img {
+  width: 85%;
+  display: block;
+  margin: 0 auto;
+}
+
+.album h2 {
+  font-size: 1vw;
+  font-weight: 300;
+  text-shadow: 2px 2px 3px #000;
+  margin: .5vw;
+}
+
+.album_display {
+  text-align: center;
+}
+
+.album_display h1 {
+  margin: 1vw;
+  font-family: 'Pacifico', cursive;
+  font-size: 3vw;
+  text-shadow: 2px 2px 3px #000;
+}
+
+.album_display h2 {
+  font-size: 1vw;
+}
+
+.comment textarea {
+  width: 96%;
+  height: 5vh;
+  resize: none;
+  white-space: nowrap;
+  margin: .5vw;
+  border-radius: 3px;
+  color: black;
+  padding: .5vw;
+  font-size: 1vw;
+}
+
+.comment input {
+  color: #FAFAFA;
+  margin-left: .5vw;
+  margin-bottom: .5vw;
+  background-color: #0277BD;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: .5vw 2vw;
+  text-shadow: 2px 2px 3px #000;
+  font-size: 1vw;
+}
+}
